@@ -1,0 +1,17 @@
+.aboutmain{
+    background-image: url('../../public/images/about/about.png');
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    .screen {
+    
+        position: absolute;
+        top: 30%;
+        left: 12%;
+        transform: translate(-10%, -10%); 
+        z-index: 1; 
+      }
+}
+
