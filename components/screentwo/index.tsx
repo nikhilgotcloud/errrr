@@ -9,7 +9,7 @@ import styles from './screentwo.module.scss';
 const Screentwo = () => {
   const router=useRouter();
   const handleClick=()=>{
-    router.push('/hp-details')
+    router.push('/hp-software-download')
   }
   
   return (
