@@ -12,15 +12,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   useEffect(() => {
-    
+    // Load Tawk.to script
     const s1 = document.createElement('script');
     s1.async = true;
-    s1.src = 'https://tawk.to/chat/65d76dc09131ed19d97044e2/1hn8o9eg1';
+    s1.src = 'https://embed.tawk.to/6427da434247f20fefe93064/1gstqp6p9';
     s1.charset = 'UTF-8';
     s1.setAttribute('crossorigin', '*');
     document.body.appendChild(s1);
 
-
+    // Remove script on component unmount
     return () => {
       document.body.removeChild(s1);
     };
