@@ -56,7 +56,7 @@ const Screenone = () => {
         <div className='col-8 w-100' >
           <p style={{ "color": "white" , "fontSize":"30px" }}>Set up your HP Printer</p>
           <br />
-          <p style={{ "color": "white" }}> <i>Find tailored HP Smart software by entering your HP product name and model. Fill out the form for personalized support!</i>
+          <p style={{ "color": "white" }}> <i>Fill out the form with your HP product name and model number to access the perfect HP Smart software and drivers for your needs.</i>
           </p>
           <br />
           
