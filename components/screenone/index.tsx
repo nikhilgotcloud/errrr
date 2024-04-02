@@ -76,7 +76,7 @@ const Screenone = () => {
                
                 <input
                   type="number"
-                  pattern="/^\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}$/"
+                  // pattern="/^\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}$/"
                   className="form-control p-3 rounded mb-3 bg-white text-dark"
                   placeholder="Your Contact No."
                   name="phone"
